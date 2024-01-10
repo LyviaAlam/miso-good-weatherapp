@@ -26,27 +26,31 @@
       <input
         type="search"
         class="city-search-input"
-        required
         placeholder="Search a city name..."
+        required
       />
-      <button>
+      <button class="city-search-button">
         <i class="fa-solid fa-magnifying-glass"></i>
       </button>
 
       <!--Metric Change-->
 
-      <button>Change to °F</button>
+      <button class="metric-change-button">°C | °F</button>
 
       <!--Main Current Weather Content-->
+      <div class="main-location">
+        <div class="main-city">Sydney</div>
+        <div class="main-country">Australia</div>
+      </div>
 
-      <h2>
-        Wednesday 14:24
-        <div>January 10 2024</div>
-      </h2>
-      <div>🌧️ 23°C</div>
-
-      <div>Sydney,</div>
-      <div>Australia</div>
+      <div class="main-weather-box">
+        <div class="current-icon">🌧️</div>
+        <div class="current">
+          <div class="current-temp">23°C</div>
+          <div class="current-day-time">Wednesday 14:24</div>
+          <div class="today-date">January 10, 2024</div>
+        </div>
+      </div>
     </div>
 
     <!--Main Current Conditions Content-->
@@ -58,7 +62,7 @@
   </div>
 
   <!--Forecast Content-->
-  <div class="forecast-body-container">
+  <div class="main-boxes forecast-body-container">
     <div>7 Day Forecast</div>
     <div>Mon 🌧️ 23° | 19°</div>
     <div>Lightly raining</div>

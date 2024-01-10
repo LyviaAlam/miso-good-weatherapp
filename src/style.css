@@ -10,11 +10,7 @@ h1 {
   font-family: "Pacifico", cursive;
   text-align: center;
 }
-input {
-}
-h2 {
-  font-size: 20px;
-}
+
 footer {
   font-size: 14px;
   text-align: center;
@@ -28,17 +24,99 @@ a {
 a:hover {
   color: #8f5125;
 }
+
+.city-search-input {
+  font-size: 15px;
+  padding: 10px 30px;
+  width: 67%;
+  height: 50px;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.city-search-button {
+  font-size: 15px;
+  width: 15%;
+  height: 50px;
+  border: solid 1px #2b4450;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  background-color: #2b4450;
+  position: relative;
+  left: -4px;
+}
+
+.city-search-button:hover {
+  color: #f78536;
+}
+
+.metric-change-button {
+  font-size: 15px;
+  width: 16%;
+  height: 50px;
+  border: solid 1px #f78536;
+  border-radius: 25px;
+  color: white;
+  background-color: #f78536;
+}
+.main-weather-box {
+  display: flex;
+  justify-content: center;
+}
+
+.main-location {
+  margin-left: 10px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.main-city {
+  font-size: 70px;
+  font-weight: bold;
+}
+.main-country {
+  font-size: 30px;
+  color: #f78536;
+}
+.current {
+  margin-top: 30px;
+  border-left: solid 1px #f78536;
+  padding-left: 50px;
+}
+.current-day-time {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+}
+.today-date {
+  font-size: 15px;
+  text-align: left;
+  font-weight: 200;
+}
+.current-icon {
+  font-size: 120px;
+  text-align: right;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.current-temp {
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 .all-body-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   max-width: 900px;
   margin: 0 auto;
 }
 
 .main-boxes {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.25);
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 40px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -55,12 +133,8 @@ a:hover {
 }
 
 .forecast-body-container {
-  background-color: rgba(255, 255, 255, 0.4);
-  border: none;
   width: 820px;
   display: block;
-  border-radius: 5px;
-  padding: 40px;
   margin: 0 auto;
 }
 /*
