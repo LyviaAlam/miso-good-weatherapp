@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Miso Good Weather App</title>
+    <script
+      src="https://kit.fontawesome.com/0a16e5504b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <h1>Miso Good Weather</h1>
+  </header>
+
+  <div class="all-body-container">
+    <div class="main-boxes main-body-container">
+      <!--Search Engine-->
+
+      <input
+        type="search"
+        class="city-search-input"
+        required
+        placeholder="Search a city name..."
+      />
+      <button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+
+      <!--Metric Change-->
+
+      <button>Change to °F</button>
+
+      <!--Main Current Weather Content-->
+
+      <h2>
+        Wednesday 14:24
+        <div>January 10 2024</div>
+      </h2>
+      <div>🌧️ 23°C</div>
+
+      <div>Sydney,</div>
+      <div>Australia</div>
+    </div>
+
+    <!--Main Current Conditions Content-->
+    <div class="main-boxes conditions-body-container">
+      <div>Feels like 22°C</div>
+      <div>Wind Speed: 30km/h</div>
+      <div>Humidity: 80%</div>
+    </div>
+  </div>
+
+  <!--Forecast Content-->
+  <div class="forecast-body-container">
+    <div>7 Day Forecast</div>
+    <div>Mon 🌧️ 23° | 19°</div>
+    <div>Lightly raining</div>
+  </div>
+
+  <footer>
+    This project was coded by
+    <a href="https://github.com/LyviaAlam" target="_blank">Lyvia Alam</a>, is
+    open-sourced on
+    <a href="https://github.com/LyviaAlam/nori-goodweather-app" target="_blank"
+      >Github</a
+    >
+    and hosted on
+    <a href="https://nori-goodweather.netlify.app/" target="_blank">Netlify</a>
+  </footer>
+</html>

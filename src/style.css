@@ -1,0 +1,82 @@
+body {
+  background-color: #2b4450;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 20px;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+input {
+}
+h2 {
+  font-size: 20px;
+}
+footer {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+a {
+  color: #f78536;
+}
+
+a:hover {
+  color: #8f5125;
+}
+.all-body-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-boxes {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 5px;
+  padding: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.main-body-container {
+  width: 600px;
+  margin-right: 10px;
+}
+
+.conditions-body-container {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.forecast-body-container {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  width: 820px;
+  display: block;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 0 auto;
+}
+/*
+orange {
+  background: #f78536;
+}
+lightblue {
+  background: #dfebed;
+}
+midblue {
+  background: #497285;
+}
+darkblue {
+  background: #2b4450;
+}
+
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+*/
